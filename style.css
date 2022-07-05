@@ -105,6 +105,9 @@
 #ammount::placeholder{
     color: #B3B3B3;
 }
+.selected{
+    border: solid 1.5px red;
+}
 
 /* end*/
 
@@ -299,4 +302,41 @@ footer h2{
     background-image: url(images/donation2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+.be-come{
+    margin: 0 20%;
+}
+.be-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 60vh;
+}
+.be-content .v-color{
+    color: greenyellow;
+}
+.be-content h1{
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+}
+.be-content hr{
+    width: 500px;
+    color: white;
+}
+.be-content p{
+    text-align: center;
+    color: #fff;
+    font-size: 22px;
+    margin: 2% 0;
+}
+.be-content a{
+    text-decoration: none;
+    background-color: #ffffff;
+    padding: 10px 40px;
+    font-size: 22px;
+    font-weight: 700;
+    border-radius: 10px;
 }
