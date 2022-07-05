@@ -98,12 +98,12 @@
     text-align: center;
     margin: 8% 0;
     border: none;
-    border-bottom: solid 0.5px ;
+    border-bottom: solid 0.5px #B3B3B3 ;
     width: 800px;
     outline:0;
 }
 #ammount::placeholder{
-    color: #B3B3B3;
+    color: #8f7e7e;
 }
 .selected{
     border: solid 1.5px red;
