@@ -230,3 +230,59 @@ footer h2{
     font-family: 'Lobster', cursive;
     font-size: 40px;
 }
+
+
+/* Extra section */
+.join-link{
+    display: flex;
+    justify-content: right;
+} 
+.who-we-are{
+    display: flex;
+    padding: 0 20%;
+}
+.about{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.about h1{
+    font-size: 40px;
+}
+.h-color{
+    color: #FF5959;
+}
+.red-more{
+    margin-top: 10px;
+    border-radius: 20px;
+    text-align: center;
+   text-decoration: none;
+   background-color: tomato;
+   padding: 10px 0;
+}
+.join-box{
+    align-items: center;
+    text-align: center;
+    width: 250px;
+    height: 380px;
+    box-shadow: 1px 1px 14px black;
+    margin: 2% 2%;
+}
+.join-box  p{
+    margin: 8% 0;
+    font-size: 22px;
+
+}
+.join-box img{
+    margin: 10% 0;
+}
+.d-n-b{
+    text-decoration: none;
+    background-color: #FF5959;
+    padding: 10px 35px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 700;
+    
+}
